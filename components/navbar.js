@@ -28,10 +28,10 @@ const Navbar = () => {
                         alt="N"
                         width="32"
                         height="32"
-                        className="w-8"
+                        className=" fill-blue-500 w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>Batang Go Digital</span>
                   </span>
                 </Link>
 
