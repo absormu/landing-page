@@ -5,11 +5,12 @@ import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "ABOUT",
+    "SERVICES",
+    "WORKS",
+    "BLOG",
+    "CARRERS",
+    "CONTACT"
   ];
 
   return (
@@ -28,10 +29,10 @@ const Navbar = () => {
                         alt="N"
                         width="32"
                         height="32"
-                        className=" fill-blue-500 w-8"
+                        className="w-8"
                       />
                     </span>
-                    <span>Batang Go Digital</span>
+                    <span>ABSOR</span>
                   </span>
                 </Link>
 
@@ -90,7 +91,7 @@ const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+              Hubungi Kami
           </Link>
 
           <ThemeChanger />

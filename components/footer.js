@@ -5,11 +5,12 @@ import Container from "./container";
 
 export default function Footer() {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "ABOUT",
+    "SERVICES",
+    "WORKS",
+    "BLOG",
+    "CARRERS",
+    "CONTACT"
   ];
   const legal = ["Terms", "Privacy", "Legal"];
   return (
@@ -27,30 +28,15 @@ export default function Footer() {
                       height="32"
                       className="w-8"
                     />
-                  <span>Nextly</span>
+                  <span>ABSOR</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+            Jasa pengembangan software yang dapat disesuaikan dengan kebutuhan bisnis Anda, sehingga efektif dalam menemukan audiens yang potensial. Kami akan memproses dengan cepat dan tepat, didukung oleh tim yang berpengalaman dan profesional.
             </div>
 
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44">
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div>
+             
           </div>
 
           <div>
@@ -107,24 +93,11 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a
-            href="https://web3templates.com/"
-            target="_blank"
-            rel="noopener">
-            Web3Templates.
-          </a>{" "}
-          Illustrations from{" "}
-          <a
-            href="https://www.glazestock.com/"
-            target="_blank"
-            rel="noopener ">
-            Glazestock
-          </a>
+          Copyright © {new Date().getFullYear()}. Absor Teknologi Indonesia. All rights reserved. 
         </div>
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      {/* <Backlink /> */}
     </div>
   );
 }
